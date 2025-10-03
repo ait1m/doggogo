@@ -1,0 +1,18 @@
+nav {
+    background-color: rgb(33, 41, 114);
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    color: white;
+}
+
+#my-title {
+    color: rgb(33, 41, 114);
+}
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
