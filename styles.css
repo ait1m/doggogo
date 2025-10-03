@@ -8,7 +8,12 @@ nav {
 
 #my-title {
     color: rgb(33, 41, 114);
+    padding-left: 10px;
 }
+#title {
+    padding-left: 10px;
+}
+
 body {
     margin: 0;
 }
