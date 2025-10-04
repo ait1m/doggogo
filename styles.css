@@ -85,7 +85,6 @@ hr {
 
 .balance {
     display: flex;
-    flex-direction: row;
     font-size: 20px;
 }
 
@@ -107,6 +106,7 @@ hr {
     flex-direction: row;
     width: 100%;
     gap: 10px;
+    justify-content: center;
 }
 
 .currency {
@@ -121,10 +121,10 @@ hr {
 
 #area {
     min-width: 98%;
-    min-height: 300px;
+    min-height: 200px;
     resize: vertical;
     margin-inline: 10px;
-    background-color: rgb(20, 216, 234);
+    background-color: rgb(17, 203, 220);
     border-radius: 30px;
     box-shadow: rgba(17, 179, 224, 0.605) 0px 0px 0px 3px;
 }
@@ -132,6 +132,4 @@ hr {
 .textarea {
     display: flex;
     justify-content: center;
-    
-
 }
