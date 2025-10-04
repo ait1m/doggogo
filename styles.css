@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Rubik+Bubbles&display=swap');
 nav {
-    background-color: rgb(33, 41, 114);
+    background-color: rgb(83, 143, 175);
     display: flex;
     justify-content: space-between;
     justify-items: center;
@@ -7,7 +8,7 @@ nav {
 }
 
 #my-title {
-    color: rgb(33, 41, 114);
+    color: rgb(83, 143, 175);
     padding-left: 10px;
 }
 #title {
@@ -20,4 +21,76 @@ body {
 
 .container {
     display: flex;
+}
+
+h1 {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(83, 143, 175);
+}
+
+#account {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(83, 143, 175);
+    padding-left: 10px;
+}
+
+h2 {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Itim", cursive;
+    font-weight: 900;
+    font-style: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(83, 143, 175);
+
+
+}
+
+p {
+    font-family: "Itim", cursive;
+    font-weight: 100;
+    font-style: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+hr {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.accountt {
+    display: flex;
+}
+
+.balance {
+    display: flex;
+    flex-direction: row;
+}
+
+.bank {
+    display: flex;
+}
+
+#Financial {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(83, 143, 175);
+}
+
+.currency {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
