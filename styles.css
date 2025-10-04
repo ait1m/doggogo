@@ -71,6 +71,7 @@ hr {
 
 .accountt {
     display: flex;
+    width: 70%;
 }
 
 .balance {
@@ -89,8 +90,14 @@ hr {
     color: rgb(83, 143, 175);
 }
 
-.currency {
+.bigbox {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 70%;
+}
+
+.currency {
+    display: flex;
+    flex-direction: row;
 }
