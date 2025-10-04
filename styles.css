@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Rubik+Bubbles&family=Rubik+Puddles&display=swap');
 nav {
-    background-color: rgb(83, 143, 175);
+    background-color: rgb(17, 203, 220);
     display: flex;
     justify-content: space-between;
     justify-items: center;
     color: white;
+    font-size: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgba(14, 63, 126, 0.283) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
 }
 
 #my-title {
-    color: rgb(83, 143, 175);
+    color: rgb(0, 130, 177);
     padding-left: 10px;
 }
 #title {
@@ -27,14 +31,16 @@ h1 {
     font-family: "Rubik Bubbles", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: rgb(83, 143, 175);
+    font-size: 50px;
+    color: rgb(17, 203, 220);
 }
 
 #account {
     font-family: "Rubik Bubbles", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: rgb(83, 143, 175);
+    font-size: 40px;
+    color: rgb(0, 130, 177);
     padding-left: 10px;
 }
 
@@ -42,6 +48,7 @@ h2 {
     font-family: "Rubik Bubbles", system-ui;
     font-weight: 400;
     font-style: normal;
+    font-size: 60px;
 }
 
 h3 {
@@ -50,7 +57,8 @@ h3 {
     font-style: normal;
     padding-left: 10px;
     padding-right: 10px;
-    color: rgb(83, 143, 175);
+    font-size: 30px;
+    color: rgb(1, 174, 189)
 
 
 }
@@ -59,6 +67,7 @@ p {
     font-family: "Itim", cursive;
     font-weight: 100;
     font-style: normal;
+    font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -71,22 +80,26 @@ hr {
 
 .accountt {
     display: flex;
+    font-size: 20px;
 }
 
 .balance {
     display: flex;
     flex-direction: row;
+    font-size: 20px;
 }
 
 .bank {
     display: flex;
+    font-size: 20px;
 }
 
 #Financial {
     font-family: "Rubik Bubbles", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: rgb(83, 143, 175);
+    font-size: 40px;
+    color: rgb(0, 130, 177);
 }
 
 .bigbox {
@@ -99,6 +112,7 @@ hr {
 .currency {
     display: flex;
     flex-direction: row;
+    font-size: 20px;
 }
 
 .smallbox {
@@ -110,9 +124,14 @@ hr {
     min-height: 300px;
     resize: vertical;
     margin-inline: 10px;
+    background-color: rgb(20, 216, 234);
+    border-radius: 30px;
+    box-shadow: rgba(17, 179, 224, 0.605) 0px 0px 0px 3px;
 }
 
 .textarea {
     display: flex;
     justify-content: center;
+    
+
 }
