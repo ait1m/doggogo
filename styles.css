@@ -113,4 +113,5 @@ textarea {
     min-width: 100%;
     min-height: 300px;
     resize: vertical;
+    margin-inline: 10px;
 }
