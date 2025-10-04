@@ -125,11 +125,16 @@ hr {
     resize: vertical;
     margin-inline: 10px;
     background-color: rgb(17, 203, 220);
-    border-radius: 30px;
+    border-radius: 15px;
     box-shadow: rgba(17, 179, 224, 0.605) 0px 0px 0px 3px;
 }
 
 .textarea {
     display: flex;
     justify-content: center;
+}
+
+.icon {
+    height: 150px;
+    width: auto;
 }
