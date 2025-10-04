@@ -101,17 +101,18 @@ hr {
     flex-direction: row;
 }
 
-.smallbox1 {
+.smallbox {
     width: 40%;
 }
 
-.smallbox2 {
-    width: 40%;
-}
-
-textarea {
-    min-width: 100%;
+#area {
+    min-width: 98%;
     min-height: 300px;
     resize: vertical;
     margin-inline: 10px;
+}
+
+.textarea {
+    display: flex;
+    justify-content: center;
 }
