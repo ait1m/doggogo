@@ -6,7 +6,7 @@ function setbalance() {
     account = Number(document.getElementById("current-account").value) || 0
     cash = Number(document.getElementById("current-cash").value) || 0
 
-    area.value += `Current account balance : ${account} , Current cash balance : ${cash}\n`
+    area.value += `  Current account balance : ${account} , Current cash balance : ${cash}\n`
 
 }
 
@@ -19,11 +19,11 @@ function bankOperation() {
         if (selected == "deposit" && amount <= cash) {
             cash -= amount
             account += amount
-            area.value += `Current account balance : ${account} , Current cash balance : ${cash}\n`
+            area.value += `  Current account balance : ${account} , Current cash balance : ${cash}\n`
         } else if (selected == "withdraw" && amount <= account) {
             cash += amount
             account -= amount
-            area.value += `Current account balance : ${account} , Current cash balance : ${cash}\n`
+            area.value += `  Current account balance : ${account} , Current cash balance : ${cash}\n`
         } else {
             area.value += `failed!\n`
         }
